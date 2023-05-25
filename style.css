@@ -1,0 +1,62 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+* {
+    font-size: 16px;
+    margin: 0;
+}
+
+html {
+    min-height: 100%;
+    background-color: rgba(148, 163, 184, 0.3);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    padding-right: 5em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.book-container {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBook {
+    padding: 0.5em;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.addBook:hover {
+    cursor: pointer;
+    background-color: rgba(148, 163, 184, 0.4);
+    transition: background-color 1 ease;
+    border-radius: 1em;
+}
+
+
+.loginBtn {
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 1em;
+    width: 5em;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+}
