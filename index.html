@@ -13,11 +13,31 @@
         <h1>library</h1>
         <button class="loginBtn">Log In</button>
     </div>
-
     <div class="book-container">
-        <button class="addBook">+ Add Book</button>
+        <button class="addBook" id="addBook">+ Add Book</button>
     </div>
-    
 
+    <div id="modalContainer">
+        <div id = 'modalContent'>
+            <h2>Add a book <ion-icon id = 'close-outline'name="close-outline"></ion-icon></h2>
+            
+            <form id='myForm'action="get">
+                <input id ='bookName'type="text" name="book-name" placeholder="Book Name">
+                <input type="text" name="author" placeholder="Author">
+                <input type="number" name="pages" placeholder="Pages"> 
+                <p>Have you read it?<input type="checkbox" name="checkbox"></p>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -60,3 +60,90 @@ h1 {
 .loginBtn:hover {
     cursor: pointer;
 }
+
+#modalContainer {
+    position: fixed;
+    left: 30%;
+    background-color: white;
+    width: 15rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    background-color: #d1d5db;
+    width: 45%;
+    opacity: 0;
+    
+}
+
+ion-icon[name='close-outline'] {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#modalContainer.show{
+    opacity: 1;
+}
+
+#modalContent > h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding-top: 0.5em;
+    
+}
+form {
+    padding-top: 1em;
+    gap: 1em;
+}
+
+input[name="book-name"],
+input[name="author"],
+input[name="pages"],
+p,
+.submit {
+  margin-bottom: 2em;
+}
+
+input[name='checkbox'] {
+    margin-left: 1em;
+
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+
+input[name="book-name"],
+input[name="author"],
+input[name="pages"] {
+    border-radius: 3px;
+    border: none;
+    height: 1.7em;
+
+}
+
+input::placeholder {
+    padding-top: 2em;
+    padding-left: 0.5em;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.3);
+  }
+
+
+input[type='submit'] {
+    background-color: #6ee7b7;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+}
