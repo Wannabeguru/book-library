@@ -72,9 +72,16 @@ h1 {
     text-align: center;
     background-color: #d1d5db;
     width: 45%;
-    opacity: 0;
     
 }
+
+
+.hidden {
+    display: none;
+  }
+
+
+  
 
 ion-icon[name='close-outline'] {
     margin-bottom: 10px;
@@ -82,9 +89,6 @@ ion-icon[name='close-outline'] {
     cursor: pointer;
 }
 
-#modalContainer.show{
-    opacity: 1;
-}
 
 #modalContent > h2 {
     font-size: 2rem;
